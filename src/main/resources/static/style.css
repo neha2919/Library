@@ -1,0 +1,436 @@
+body{
+    background-color: whitesmoke;
+    background-size: 100%;
+    background-image: url("background.jpg");
+}
+/* Navbar container */
+.navBar {
+  overflow: auto;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navBar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding:20px 75px;
+  text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navBar a:hover {
+  background-color: blueviolet;
+}
+
+
+.form-button
+{
+    font: 500 1rem 'Quicksand',sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: none;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.input-field
+{
+    margin-bottom: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 6px;
+    font: 500 1rem 'Quicksand',sans-serif;
+}
+
+.welcome
+{
+    margin-bottom: 50px;
+    padding: 1px;
+    background-color: dimgrey;
+    width: 40%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.texts
+{
+    margin-bottom: 10px;
+}
+
+.image-container1
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("harrypotter1.jpeg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.image-container2
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("lordofthering.jpg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.image-container3
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("sherlock.jpg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.image-container4
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("juliuscaesar.jpg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.image-container5
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("thehobbit.jpeg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.image-container6
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 480px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("godfather.jpg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+.admin-image
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 120px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("admin1.jpg");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 100px;
+}
+
+.admin-about
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 30px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    width: 300px;
+
+}
+
+.about{
+    text-align: left;
+}
+
+.admin-image2
+{
+    border: 5px solid gainsboro;
+    border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+    padding-bottom: 120px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("admin2.png");
+    background-size: 100%;
+    background-color: whitesmoke;
+    width: 100px;
+}
+
+.mark{
+    font: 900 1rem 'Quicksand',sans-serif;
+    border: 5px;
+    border-radius: 4px;
+    color: white;
+    text-align: left;
+    background-color: #000033;
+}
+
+/* Navbar container */
+.navBarUser {
+  overflow: auto;
+  background-color: #333;
+  font-family: Arial;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.welcome1
+{
+    padding: 1px;
+    background-color: dimgrey;
+    width: 40%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+
+  border: 1px;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  border: 1px;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.welcome2
+{
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+
+
+#scroll
+{
+    display: none;
+
+    border: whitesmoke solid 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:4px;
+    background-color: wheat;
+    width: 320px;
+    height: 175px;
+    text-align:justify;
+}
+
+.close-button
+{
+    font: 500 1rem 'Quicksand',sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+#closebox{
+    display: none;
+}
+
+.myFile
+{
+    font: 500 1rem 'Quicksand',sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+#add-book-box{
+    display: none;
+
+    border: whitesmoke solid 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:4px;
+    background-color: wheat;
+    width: 300px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+#check-user-box{
+    display: none;
+
+    border: whitesmoke solid 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:4px;
+    background-color: wheat;
+    width: 300px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
